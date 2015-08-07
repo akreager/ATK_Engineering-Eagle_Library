@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -99,48 +99,6 @@
 <pad name="24" x="7.62" y="-14.224" drill="0.6" diameter="1.016"/>
 <pad name="23" x="7.62" y="-16.002" drill="0.6" diameter="1.016"/>
 <pad name="22" x="7.62" y="-17.78" drill="0.6" diameter="1.016"/>
-<hole x="-7.62" y="17.78" drill="0.6"/>
-<hole x="-7.62" y="16.002" drill="0.6"/>
-<hole x="-7.62" y="14.224" drill="0.6"/>
-<hole x="-7.62" y="12.446" drill="0.6"/>
-<hole x="-7.62" y="10.668" drill="0.6"/>
-<hole x="-7.62" y="8.89" drill="0.6"/>
-<hole x="-7.62" y="7.112" drill="0.6"/>
-<hole x="-7.62" y="5.334" drill="0.6"/>
-<hole x="-7.62" y="3.556" drill="0.6"/>
-<hole x="-7.62" y="1.778" drill="0.6"/>
-<hole x="-7.62" y="0" drill="0.6"/>
-<hole x="-7.62" y="-1.778" drill="0.6"/>
-<hole x="-7.62" y="-3.556" drill="0.6"/>
-<hole x="-7.62" y="-5.334" drill="0.6"/>
-<hole x="-7.62" y="-7.112" drill="0.6"/>
-<hole x="-7.62" y="-8.89" drill="0.6"/>
-<hole x="-7.62" y="-10.668" drill="0.6"/>
-<hole x="-7.62" y="-12.446" drill="0.6"/>
-<hole x="-7.62" y="-14.224" drill="0.6"/>
-<hole x="-7.62" y="-16.002" drill="0.6"/>
-<hole x="-7.62" y="-17.78" drill="0.6"/>
-<hole x="7.62" y="17.78" drill="0.6"/>
-<hole x="7.62" y="16.002" drill="0.6"/>
-<hole x="7.62" y="14.224" drill="0.6"/>
-<hole x="7.62" y="12.446" drill="0.6"/>
-<hole x="7.62" y="10.668" drill="0.6"/>
-<hole x="7.62" y="8.89" drill="0.6"/>
-<hole x="7.62" y="7.112" drill="0.6"/>
-<hole x="7.62" y="5.334" drill="0.6"/>
-<hole x="7.62" y="3.556" drill="0.6"/>
-<hole x="7.62" y="1.778" drill="0.6"/>
-<hole x="7.62" y="0" drill="0.6"/>
-<hole x="7.62" y="-1.778" drill="0.6"/>
-<hole x="7.62" y="-3.556" drill="0.6"/>
-<hole x="7.62" y="-5.334" drill="0.6"/>
-<hole x="7.62" y="-7.112" drill="0.6"/>
-<hole x="7.62" y="-8.89" drill="0.6"/>
-<hole x="7.62" y="-10.668" drill="0.6"/>
-<hole x="7.62" y="-12.446" drill="0.6"/>
-<hole x="7.62" y="-14.224" drill="0.6"/>
-<hole x="7.62" y="-16.002" drill="0.6"/>
-<hole x="7.62" y="-17.78" drill="0.6"/>
 <wire x1="7.239" y1="18.542" x2="-7.239" y2="18.542" width="0.127" layer="51"/>
 <wire x1="-7.239" y1="18.542" x2="-7.239" y2="-18.542" width="0.127" layer="51"/>
 <wire x1="-7.239" y1="-18.542" x2="7.239" y2="-18.542" width="0.127" layer="51"/>
@@ -149,6 +107,7 @@
 <wire x1="-7.112" y1="-18.542" x2="7.112" y2="-18.542" width="0.2032" layer="21"/>
 <text x="-7.112" y="19.558" size="1.016" layer="25">&gt;NAME</text>
 <text x="-7.112" y="-21.336" size="1.016" layer="27">&gt;VALUE</text>
+<wire x1="0.635" y1="18.415" x2="-0.635" y2="18.415" width="0.127" layer="21" curve="-180"/>
 </package>
 <package name="SDIP42_SURFACE">
 <smd name="1" x="-10.3505" y="17.78" dx="3.556" dy="0.8382" layer="1"/>
@@ -282,48 +241,48 @@
 <symbol name="TDA7429S">
 <description>TDA7429S DSP
 ST Microcontroller</description>
-<pin name="1/PS4" x="-25.4" y="50.8" length="middle"/>
-<pin name="2/PS3" x="-25.4" y="45.72" length="middle"/>
-<pin name="3/PS2" x="-25.4" y="40.64" length="middle"/>
-<pin name="4/PS1" x="-25.4" y="35.56" length="middle"/>
-<pin name="5/LP" x="-25.4" y="30.48" length="middle"/>
-<pin name="6/LP1" x="-25.4" y="25.4" length="middle"/>
-<pin name="7/HP1" x="-25.4" y="20.32" length="middle"/>
-<pin name="8/HP2" x="-25.4" y="15.24" length="middle"/>
-<pin name="9/REAROUT" x="-25.4" y="10.16" length="middle"/>
-<pin name="10/REARIN" x="-25.4" y="5.08" length="middle"/>
-<pin name="11/VAR_L" x="-25.4" y="0" length="middle"/>
-<pin name="12/BASSO_L" x="-25.4" y="-5.08" length="middle"/>
-<pin name="13/VAR_R" x="-25.4" y="-10.16" length="middle"/>
-<pin name="14/BASSO_R" x="-25.4" y="-15.24" length="middle"/>
-<pin name="15/BASS_LO" x="-25.4" y="-20.32" length="middle"/>
-<pin name="16/BASS_LI" x="-25.4" y="-25.4" length="middle"/>
-<pin name="17/BASS_RO" x="-25.4" y="-30.48" length="middle"/>
-<pin name="18/BASS_RI" x="-25.4" y="-35.56" length="middle"/>
-<pin name="19/MIDDLE_LO" x="-25.4" y="-40.64" length="middle"/>
-<pin name="20/MIDDLE_LI" x="-25.4" y="-45.72" length="middle"/>
-<pin name="21/MIDDLE_RO" x="-25.4" y="-50.8" length="middle"/>
-<pin name="22/MIDDLE_RI" x="25.4" y="-50.8" length="middle" rot="R180"/>
-<pin name="23/TREBLE_R" x="25.4" y="-45.72" length="middle" rot="R180"/>
-<pin name="24/TREBLE_L" x="25.4" y="-40.64" length="middle" rot="R180"/>
-<pin name="25/AGND" x="25.4" y="-35.56" length="middle" rot="R180"/>
-<pin name="26/SDA" x="25.4" y="-30.48" length="middle" rot="R180"/>
-<pin name="27/SCL" x="25.4" y="-25.4" length="middle" rot="R180"/>
-<pin name="28/DIG_GND" x="25.4" y="-20.32" length="middle" rot="R180"/>
-<pin name="29/R_OUT" x="25.4" y="-15.24" length="middle" rot="R180"/>
-<pin name="30/L_OUT" x="25.4" y="-10.16" length="middle" rot="R180"/>
-<pin name="31/AUXOUT_R" x="25.4" y="-5.08" length="middle" rot="R180"/>
-<pin name="32/AUXOUT_L" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="33/L_IN3" x="25.4" y="5.08" length="middle" rot="R180"/>
-<pin name="34/L_IN2" x="25.4" y="10.16" length="middle" rot="R180"/>
-<pin name="35/L_IN1" x="25.4" y="15.24" length="middle" rot="R180"/>
-<pin name="36/MONITOR_L" x="25.4" y="20.32" length="middle" rot="R180"/>
-<pin name="37/MONITOR_R" x="25.4" y="25.4" length="middle" rot="R180"/>
-<pin name="38/R_IN1" x="25.4" y="30.48" length="middle" rot="R180"/>
-<pin name="39/R_IN2" x="25.4" y="35.56" length="middle" rot="R180"/>
-<pin name="40/R_IN3" x="25.4" y="40.64" length="middle" rot="R180"/>
-<pin name="41/CREF" x="25.4" y="45.72" length="middle" rot="R180"/>
-<pin name="42/VS" x="25.4" y="50.8" length="middle" rot="R180"/>
+<pin name="PS4" x="-25.4" y="50.8" length="middle"/>
+<pin name="PS3" x="-25.4" y="45.72" length="middle"/>
+<pin name="PS2" x="-25.4" y="40.64" length="middle"/>
+<pin name="PS1" x="-25.4" y="35.56" length="middle"/>
+<pin name="LP" x="-25.4" y="30.48" length="middle"/>
+<pin name="LP1" x="-25.4" y="25.4" length="middle"/>
+<pin name="HP1" x="-25.4" y="20.32" length="middle"/>
+<pin name="HP2" x="-25.4" y="15.24" length="middle"/>
+<pin name="REAROUT" x="-25.4" y="10.16" length="middle"/>
+<pin name="REARIN" x="-25.4" y="5.08" length="middle"/>
+<pin name="VAR_L" x="-25.4" y="0" length="middle"/>
+<pin name="BASSO_L" x="-25.4" y="-5.08" length="middle"/>
+<pin name="VAR_R" x="-25.4" y="-10.16" length="middle"/>
+<pin name="BASSO_R" x="-25.4" y="-15.24" length="middle"/>
+<pin name="BASS_LO" x="-25.4" y="-20.32" length="middle"/>
+<pin name="BASS_LI" x="-25.4" y="-25.4" length="middle"/>
+<pin name="BASS_RO" x="-25.4" y="-30.48" length="middle"/>
+<pin name="BASS_RI" x="-25.4" y="-35.56" length="middle"/>
+<pin name="MIDDLE_LO" x="-25.4" y="-40.64" length="middle"/>
+<pin name="MIDDLE_LI" x="-25.4" y="-45.72" length="middle"/>
+<pin name="MIDDLE_RO" x="-25.4" y="-50.8" length="middle"/>
+<pin name="MIDDLE_RI" x="25.4" y="-50.8" length="middle" rot="R180"/>
+<pin name="TREBLE_R" x="25.4" y="-45.72" length="middle" rot="R180"/>
+<pin name="TREBLE_L" x="25.4" y="-40.64" length="middle" rot="R180"/>
+<pin name="AGND" x="25.4" y="-35.56" length="middle" rot="R180"/>
+<pin name="SDA" x="25.4" y="-30.48" length="middle" rot="R180"/>
+<pin name="SCL" x="25.4" y="-25.4" length="middle" rot="R180"/>
+<pin name="DIG_GND" x="25.4" y="-20.32" length="middle" rot="R180"/>
+<pin name="R_OUT" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<pin name="L_OUT" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="AUXOUT_R" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="AUXOUT_L" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="L_IN3" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="L_IN2" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="L_IN1" x="25.4" y="15.24" length="middle" rot="R180"/>
+<pin name="MONITOR_L" x="25.4" y="20.32" length="middle" rot="R180"/>
+<pin name="MONITOR_R" x="25.4" y="25.4" length="middle" rot="R180"/>
+<pin name="R_IN1" x="25.4" y="30.48" length="middle" rot="R180"/>
+<pin name="R_IN2" x="25.4" y="35.56" length="middle" rot="R180"/>
+<pin name="R_IN3" x="25.4" y="40.64" length="middle" rot="R180"/>
+<pin name="CREF" x="25.4" y="45.72" length="middle" rot="R180"/>
+<pin name="VS" x="25.4" y="50.8" length="middle" rot="R180"/>
 <wire x1="-20.32" y1="55.88" x2="-20.32" y2="-55.88" width="0.254" layer="94"/>
 <wire x1="-20.32" y1="-55.88" x2="20.32" y2="-55.88" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-55.88" x2="20.32" y2="55.88" width="0.254" layer="94"/>
@@ -389,48 +348,48 @@ ST Microcontroller</description>
 <devices>
 <device name="TDA7429S" package="SDIP42">
 <connects>
-<connect gate="G$1" pin="1/PS4" pad="1"/>
-<connect gate="G$1" pin="10/REARIN" pad="10"/>
-<connect gate="G$1" pin="11/VAR_L" pad="11"/>
-<connect gate="G$1" pin="12/BASSO_L" pad="12"/>
-<connect gate="G$1" pin="13/VAR_R" pad="13"/>
-<connect gate="G$1" pin="14/BASSO_R" pad="14"/>
-<connect gate="G$1" pin="15/BASS_LO" pad="15"/>
-<connect gate="G$1" pin="16/BASS_LI" pad="16"/>
-<connect gate="G$1" pin="17/BASS_RO" pad="17"/>
-<connect gate="G$1" pin="18/BASS_RI" pad="18"/>
-<connect gate="G$1" pin="19/MIDDLE_LO" pad="19"/>
-<connect gate="G$1" pin="2/PS3" pad="2"/>
-<connect gate="G$1" pin="20/MIDDLE_LI" pad="20"/>
-<connect gate="G$1" pin="21/MIDDLE_RO" pad="21"/>
-<connect gate="G$1" pin="22/MIDDLE_RI" pad="22"/>
-<connect gate="G$1" pin="23/TREBLE_R" pad="23"/>
-<connect gate="G$1" pin="24/TREBLE_L" pad="24"/>
-<connect gate="G$1" pin="25/AGND" pad="25"/>
-<connect gate="G$1" pin="26/SDA" pad="26"/>
-<connect gate="G$1" pin="27/SCL" pad="27"/>
-<connect gate="G$1" pin="28/DIG_GND" pad="28"/>
-<connect gate="G$1" pin="29/R_OUT" pad="29"/>
-<connect gate="G$1" pin="3/PS2" pad="3"/>
-<connect gate="G$1" pin="30/L_OUT" pad="30"/>
-<connect gate="G$1" pin="31/AUXOUT_R" pad="31"/>
-<connect gate="G$1" pin="32/AUXOUT_L" pad="32"/>
-<connect gate="G$1" pin="33/L_IN3" pad="33"/>
-<connect gate="G$1" pin="34/L_IN2" pad="34"/>
-<connect gate="G$1" pin="35/L_IN1" pad="35"/>
-<connect gate="G$1" pin="36/MONITOR_L" pad="36"/>
-<connect gate="G$1" pin="37/MONITOR_R" pad="37"/>
-<connect gate="G$1" pin="38/R_IN1" pad="38"/>
-<connect gate="G$1" pin="39/R_IN2" pad="39"/>
-<connect gate="G$1" pin="4/PS1" pad="4"/>
-<connect gate="G$1" pin="40/R_IN3" pad="40"/>
-<connect gate="G$1" pin="41/CREF" pad="41"/>
-<connect gate="G$1" pin="42/VS" pad="42"/>
-<connect gate="G$1" pin="5/LP" pad="5"/>
-<connect gate="G$1" pin="6/LP1" pad="6"/>
-<connect gate="G$1" pin="7/HP1" pad="7"/>
-<connect gate="G$1" pin="8/HP2" pad="8"/>
-<connect gate="G$1" pin="9/REAROUT" pad="9"/>
+<connect gate="G$1" pin="AGND" pad="25"/>
+<connect gate="G$1" pin="AUXOUT_L" pad="32"/>
+<connect gate="G$1" pin="AUXOUT_R" pad="31"/>
+<connect gate="G$1" pin="BASSO_L" pad="12"/>
+<connect gate="G$1" pin="BASSO_R" pad="14"/>
+<connect gate="G$1" pin="BASS_LI" pad="16"/>
+<connect gate="G$1" pin="BASS_LO" pad="15"/>
+<connect gate="G$1" pin="BASS_RI" pad="18"/>
+<connect gate="G$1" pin="BASS_RO" pad="17"/>
+<connect gate="G$1" pin="CREF" pad="41"/>
+<connect gate="G$1" pin="DIG_GND" pad="28"/>
+<connect gate="G$1" pin="HP1" pad="7"/>
+<connect gate="G$1" pin="HP2" pad="8"/>
+<connect gate="G$1" pin="LP" pad="5"/>
+<connect gate="G$1" pin="LP1" pad="6"/>
+<connect gate="G$1" pin="L_IN1" pad="35"/>
+<connect gate="G$1" pin="L_IN2" pad="34"/>
+<connect gate="G$1" pin="L_IN3" pad="33"/>
+<connect gate="G$1" pin="L_OUT" pad="30"/>
+<connect gate="G$1" pin="MIDDLE_LI" pad="20"/>
+<connect gate="G$1" pin="MIDDLE_LO" pad="19"/>
+<connect gate="G$1" pin="MIDDLE_RI" pad="22"/>
+<connect gate="G$1" pin="MIDDLE_RO" pad="21"/>
+<connect gate="G$1" pin="MONITOR_L" pad="36"/>
+<connect gate="G$1" pin="MONITOR_R" pad="37"/>
+<connect gate="G$1" pin="PS1" pad="4"/>
+<connect gate="G$1" pin="PS2" pad="3"/>
+<connect gate="G$1" pin="PS3" pad="2"/>
+<connect gate="G$1" pin="PS4" pad="1"/>
+<connect gate="G$1" pin="REARIN" pad="10"/>
+<connect gate="G$1" pin="REAROUT" pad="9"/>
+<connect gate="G$1" pin="R_IN1" pad="38"/>
+<connect gate="G$1" pin="R_IN2" pad="39"/>
+<connect gate="G$1" pin="R_IN3" pad="40"/>
+<connect gate="G$1" pin="R_OUT" pad="29"/>
+<connect gate="G$1" pin="SCL" pad="27"/>
+<connect gate="G$1" pin="SDA" pad="26"/>
+<connect gate="G$1" pin="TREBLE_L" pad="24"/>
+<connect gate="G$1" pin="TREBLE_R" pad="23"/>
+<connect gate="G$1" pin="VAR_L" pad="11"/>
+<connect gate="G$1" pin="VAR_R" pad="13"/>
+<connect gate="G$1" pin="VS" pad="42"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -445,48 +404,48 @@ ST Microcontroller</description>
 <devices>
 <device name="" package="SDIP42_SURFACE">
 <connects>
-<connect gate="G$1" pin="1/PS4" pad="1"/>
-<connect gate="G$1" pin="10/REARIN" pad="10"/>
-<connect gate="G$1" pin="11/VAR_L" pad="11"/>
-<connect gate="G$1" pin="12/BASSO_L" pad="12"/>
-<connect gate="G$1" pin="13/VAR_R" pad="13"/>
-<connect gate="G$1" pin="14/BASSO_R" pad="14"/>
-<connect gate="G$1" pin="15/BASS_LO" pad="15"/>
-<connect gate="G$1" pin="16/BASS_LI" pad="16"/>
-<connect gate="G$1" pin="17/BASS_RO" pad="17"/>
-<connect gate="G$1" pin="18/BASS_RI" pad="18"/>
-<connect gate="G$1" pin="19/MIDDLE_LO" pad="19"/>
-<connect gate="G$1" pin="2/PS3" pad="2"/>
-<connect gate="G$1" pin="20/MIDDLE_LI" pad="20"/>
-<connect gate="G$1" pin="21/MIDDLE_RO" pad="21"/>
-<connect gate="G$1" pin="22/MIDDLE_RI" pad="22"/>
-<connect gate="G$1" pin="23/TREBLE_R" pad="23"/>
-<connect gate="G$1" pin="24/TREBLE_L" pad="24"/>
-<connect gate="G$1" pin="25/AGND" pad="25"/>
-<connect gate="G$1" pin="26/SDA" pad="26"/>
-<connect gate="G$1" pin="27/SCL" pad="27"/>
-<connect gate="G$1" pin="28/DIG_GND" pad="28"/>
-<connect gate="G$1" pin="29/R_OUT" pad="29"/>
-<connect gate="G$1" pin="3/PS2" pad="3"/>
-<connect gate="G$1" pin="30/L_OUT" pad="30"/>
-<connect gate="G$1" pin="31/AUXOUT_R" pad="31"/>
-<connect gate="G$1" pin="32/AUXOUT_L" pad="32"/>
-<connect gate="G$1" pin="33/L_IN3" pad="33"/>
-<connect gate="G$1" pin="34/L_IN2" pad="34"/>
-<connect gate="G$1" pin="35/L_IN1" pad="35"/>
-<connect gate="G$1" pin="36/MONITOR_L" pad="36"/>
-<connect gate="G$1" pin="37/MONITOR_R" pad="37"/>
-<connect gate="G$1" pin="38/R_IN1" pad="38"/>
-<connect gate="G$1" pin="39/R_IN2" pad="39"/>
-<connect gate="G$1" pin="4/PS1" pad="4"/>
-<connect gate="G$1" pin="40/R_IN3" pad="40"/>
-<connect gate="G$1" pin="41/CREF" pad="41"/>
-<connect gate="G$1" pin="42/VS" pad="42"/>
-<connect gate="G$1" pin="5/LP" pad="5"/>
-<connect gate="G$1" pin="6/LP1" pad="6"/>
-<connect gate="G$1" pin="7/HP1" pad="7"/>
-<connect gate="G$1" pin="8/HP2" pad="8"/>
-<connect gate="G$1" pin="9/REAROUT" pad="9"/>
+<connect gate="G$1" pin="AGND" pad="25"/>
+<connect gate="G$1" pin="AUXOUT_L" pad="32"/>
+<connect gate="G$1" pin="AUXOUT_R" pad="31"/>
+<connect gate="G$1" pin="BASSO_L" pad="12"/>
+<connect gate="G$1" pin="BASSO_R" pad="14"/>
+<connect gate="G$1" pin="BASS_LI" pad="16"/>
+<connect gate="G$1" pin="BASS_LO" pad="15"/>
+<connect gate="G$1" pin="BASS_RI" pad="18"/>
+<connect gate="G$1" pin="BASS_RO" pad="17"/>
+<connect gate="G$1" pin="CREF" pad="41"/>
+<connect gate="G$1" pin="DIG_GND" pad="28"/>
+<connect gate="G$1" pin="HP1" pad="7"/>
+<connect gate="G$1" pin="HP2" pad="8"/>
+<connect gate="G$1" pin="LP" pad="5"/>
+<connect gate="G$1" pin="LP1" pad="6"/>
+<connect gate="G$1" pin="L_IN1" pad="35"/>
+<connect gate="G$1" pin="L_IN2" pad="34"/>
+<connect gate="G$1" pin="L_IN3" pad="33"/>
+<connect gate="G$1" pin="L_OUT" pad="30"/>
+<connect gate="G$1" pin="MIDDLE_LI" pad="20"/>
+<connect gate="G$1" pin="MIDDLE_LO" pad="19"/>
+<connect gate="G$1" pin="MIDDLE_RI" pad="22"/>
+<connect gate="G$1" pin="MIDDLE_RO" pad="21"/>
+<connect gate="G$1" pin="MONITOR_L" pad="36"/>
+<connect gate="G$1" pin="MONITOR_R" pad="37"/>
+<connect gate="G$1" pin="PS1" pad="4"/>
+<connect gate="G$1" pin="PS2" pad="3"/>
+<connect gate="G$1" pin="PS3" pad="2"/>
+<connect gate="G$1" pin="PS4" pad="1"/>
+<connect gate="G$1" pin="REARIN" pad="10"/>
+<connect gate="G$1" pin="REAROUT" pad="9"/>
+<connect gate="G$1" pin="R_IN1" pad="38"/>
+<connect gate="G$1" pin="R_IN2" pad="39"/>
+<connect gate="G$1" pin="R_IN3" pad="40"/>
+<connect gate="G$1" pin="R_OUT" pad="29"/>
+<connect gate="G$1" pin="SCL" pad="27"/>
+<connect gate="G$1" pin="SDA" pad="26"/>
+<connect gate="G$1" pin="TREBLE_L" pad="24"/>
+<connect gate="G$1" pin="TREBLE_R" pad="23"/>
+<connect gate="G$1" pin="VAR_L" pad="11"/>
+<connect gate="G$1" pin="VAR_R" pad="13"/>
+<connect gate="G$1" pin="VS" pad="42"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -366,20 +366,6 @@ ST Microcontroller</description>
 <text x="-7.62" y="7.874" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-7.874" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
-<symbol name="MCP1826T">
-<pin name="~SHDN" x="-17.78" y="10.16" length="middle"/>
-<pin name="VIN" x="-17.78" y="5.08" length="middle"/>
-<pin name="GND" x="-17.78" y="0" length="middle"/>
-<pin name="VOUT" x="-17.78" y="-5.08" length="middle"/>
-<pin name="PWRGD" x="-17.78" y="-10.16" length="middle"/>
-<pin name="GND_TAB" x="17.78" y="0" length="middle" rot="R180"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
-<text x="-12.7" y="13.208" size="1.27" layer="94">&gt;NAME</text>
-<text x="-12.7" y="-13.462" size="1.27" layer="94" align="top-left">&gt;VALUE</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TDA7429S">
@@ -540,26 +526,6 @@ ST Microcontroller</description>
 <connect gate="G$1" pin="AN3" pad="3"/>
 <connect gate="G$1" pin="CA1" pad="1"/>
 <connect gate="G$1" pin="CA4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MCP1826T">
-<gates>
-<gate name="G$1" symbol="MCP1826T" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOP-223-5">
-<connects>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="GND_TAB" pad="6"/>
-<connect gate="G$1" pin="PWRGD" pad="5"/>
-<connect gate="G$1" pin="VIN" pad="2"/>
-<connect gate="G$1" pin="VOUT" pad="4"/>
-<connect gate="G$1" pin="~SHDN" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
